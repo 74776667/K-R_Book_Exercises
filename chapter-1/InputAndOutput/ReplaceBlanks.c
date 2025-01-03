@@ -16,17 +16,11 @@ int main(){
 		}
 		if(c != ' '){
 			blankCounter = 0;
-		
 		}	
-	
 		if(blankCounter > 1){
-		
-			printf("\b");
-			++blankCounter;
-		
+			printf("\b");		
 		}
 		putchar(c);
-	}	
-	
+	}
 	return 0;
 }
